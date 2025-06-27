@@ -5,10 +5,8 @@ install-uv:
 	uv venv;
 
 install: install-uv
-	git clone https://github.com/NovaSky-AI/SkyRL.git;
-	cd SkyRL;
+	git clone https://github.com/AtakanTekparmak/obsidian-agent.git;
+	cd obsidian-agent;
 	uv venv;
 	$(ACTIVATE_VENV);
 	uv pip install skyrl-gym;
-	cd ..;
-	git clone https://github.com/AtakanTekparmak/obsidian-agent.git;

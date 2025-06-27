@@ -1,4 +1,4 @@
-ACTIVATE_VENV = source .venv/bin/activate;
+ACTIVATE_VENV = source .venv/bin/activate
 
 install-uv:
 	curl -LsSf https://astral.sh/uv/install.sh | sh;
